@@ -17,8 +17,8 @@ const App = () => {
   return (
     <div>
       <h1>Tabla de Ingresos Netos por Marca</h1>
-      <Table netIncomes={netIncomes} /> {/* Utiliza el componente Table y pasa los ingresos netos como prop */}
-      <p>Promedio de Ingreso Neto: {ingresoMedio.toFixed(2)}</p> {/* Muestra el promedio de ingreso neto */}
+      <Table netIncomes={netIncomes} /> 
+      <p>Promedio de Ingreso Neto: {ingresoMedio.toFixed(2)}</p> 
     </div>
   );
 }

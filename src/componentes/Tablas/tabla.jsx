@@ -3,7 +3,10 @@ import PropTypes from 'prop-types';
 
 const Table = ({ netIncomes }) => {
     return (
-        <table>
+        
+
+
+        <table className="table table-dark table-hover">
             <thead>
                 <tr>
                     <th>Marca</th>
